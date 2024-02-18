@@ -3,6 +3,9 @@
 노드 버전 20.10.0 -> 20.11.1
 ```
 npx create-react-app .
+
+npm i sass
+npm i react-router-dom
 ```
 
 # 최종 목표
