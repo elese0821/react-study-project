@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react'
 
 const List = () => {
-    const [list, setList] = useState([])
+    const [list, setList] = useState(['11', '22'])
     const [inputValue, setInputValue] = useState('')
     const addToList = () => {
         setList((prevList) => {
             return [inputValue, ...prevList]
         })
-        setInputValue()
+        setInputValue('')
     }
-    const ji = console.log('hi')
+
     useEffect(() => {
-        console.log(ji)
-    }, [ji, list])
+        console.log('hi')
+    }, [])
     return (
         <>
             <input

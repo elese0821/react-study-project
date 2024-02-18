@@ -1,0 +1,29 @@
+:root {
+    --mainfont-nanum: "NanumSquareNeo-Variable";
+
+    --black: #000;
+    --black600: #161616;
+
+    --mainColor: #fff;
+    --bgColor: #f0f0f0;
+    --white: #fff;
+
+    --red: #e73a3a;
+    // 폰트 셋팅
+    font-family: var(--mainfont-nanum);
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 300;
+
+    // 폰트 최적화
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    @media (max-width: 800px) {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

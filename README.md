@@ -6,10 +6,11 @@ npx create-react-app .
 
 npm i sass
 npm i react-router-dom
+npm install react-bootstrap bootstrap
 ```
 
 # 최종 목표
-js 기반 개발지식
+js 기반 프론트개발 
 react,next / vue
 관련 정보들, 유용한 사이트, 커뮤니티 연관한 개발관련 정보공유, 커뮤니티 사이트
 
